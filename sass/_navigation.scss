@@ -1,14 +1,24 @@
-ul.menu {
-	margin: 0;
-	padding: 0;
-	li {
-		display: inline;
-		margin-right: 10px;
-		a {
-			color: #333;
-			padding: 10px;
-			background: #333;
-			color: white;
+nav{
+	position: fixed;
+	background: white;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 50px;
+	z-index: 5;
+	.logo{
+		float:left;
+	}
+	ul.menu {
+		float:right;
+		margin: 0;
+		padding: 0;
+		li {
+			display: inline;
+			a {
+				padding: 10px;
+				color: rgba(58, 58, 58, 1);
+			}
 		}
 	}
-}
+}	

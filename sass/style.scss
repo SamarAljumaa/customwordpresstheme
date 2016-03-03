@@ -10,6 +10,7 @@
 @import 'normalize';
 @import 'typography';
 @import 'navigation';
+@import 'front-page';
 @import 'sidebar';
 @import 'comments';
 @import 'footer';
@@ -18,17 +19,28 @@
 Default Styling
 ====================================
 */
+// colors 
+$Monsoon : rgba(120, 120, 120, 1);
+$Montana : rgba(58, 58, 58, 1);
+$FuscousGray: rgba(60, 60, 60, 1);
+$Salmon: rgba(255, 145, 115, 1);
 
 img {
 	max-width: 100%;
 }
 
 body {
-	color: #333;
+	color: rgba(120, 120, 120, 1);
+	font-size: 62.5%;
+	font-family: 'Open Sans', sans-serif; 
+	a{
+		color: rgba(120, 120, 120, 1);
+	}
 }
 
-.container {
-	max-width: 1200px;
+.wrapper {
+	max-width: 1080px;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -42,6 +54,21 @@ body {
 	width: 100%;
 }
 
+h1{
+	font-size: 8.6rem;
+}
+
+h2{
+	font-size: 5rem;
+}
+
+h3{
+	font-size: 4rem;
+}
+
+h4{
+	font-size: 2rem;
+}
 
 
 

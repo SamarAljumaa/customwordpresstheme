@@ -1,6 +1,7 @@
 <footer>
-  <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
+  <div class="wrapper">
+    <p>&copy; 2015 SCRN II. All rights reserved</p>
+    <p>Built by: <a href="http://samaraljumaa.com">Samar Aljumaa</a></p>
   </div>
 </footer>
 
