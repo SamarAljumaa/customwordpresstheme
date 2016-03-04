@@ -4,8 +4,10 @@
   <div class="postImage" style="background-image: url(<?php echo hackeryou_get_thumbnail_url($post) ?>)">
     <!-- <div class="wrapper"> -->
       <div class="articleOverlay">
-        <div class="entry-meta"><p>
-        <?php hackeryou_posted_on(); ?></p>
+        <div class="entry-meta">
+        <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+          <p><?php hackeryou_posted_on(); ?></p>
+          
         </div><!-- .entry-meta -->
         <h2 class="entry-title"><?php the_title(); ?></h2>
         
@@ -14,7 +16,7 @@
   </div>
   <div class="container">
     <div class="content">
-      <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+      
       <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <div class="entry-content">
           <?php the_content(); ?>

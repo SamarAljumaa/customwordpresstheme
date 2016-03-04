@@ -2,15 +2,15 @@
 <?php get_header(); ?>
 
 <section class="blogpost">
-  <div class="container">
-
-    <div class="content">
-    		<?php get_template_part( 'loop', 'index' );	?>
-    </div> <!--/.content -->
+  <div class="wrapper">
+   <!-- <h2> <?php get_header ?> </h2> -->
+  	<ul class="posts">
+    		<?php get_template_part( 'loop', 'index' );	?> 
+  	</ul>
 
     <!-- <?php get_sidebar(); ?> -->
 
-  </div> <!-- /.container -->
+  </div> <!-- /.wrapper -->
 </section> <!-- /.blogpost -->
 
 <?php get_footer(); ?>

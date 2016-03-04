@@ -3,8 +3,8 @@
 <div class="main">
   <div class="container">
 
-    <h1>Not Found</h1>
-    <p>Apologies, but the page you requested could not be found. Perhaps searching will help.</p>
+    <h1>404</h1>
+		<h4>Oops! This is not the page you are looking for.</h4>
     <?php get_search_form(); ?>
 
   </div> <!-- /.container -->
