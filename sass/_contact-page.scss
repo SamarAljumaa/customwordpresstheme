@@ -1,0 +1,37 @@
+.contact{
+	// height: 100vh;
+	.wrapper{
+		background: rgba(60, 60, 60, 1);
+		color: white;
+		padding: 50px;
+		h2{
+			text-align: center;
+			margin: 0;
+		}
+		p{
+			text-align: center;
+		}
+		ul{
+			list-style-type: none;
+			width: 75%;
+			margin: 0 auto;
+			padding: 50px;
+			li{
+				width: 33.3%;
+				float: left;
+				text-align: center;
+				h5{
+					margin: 0;
+				}
+				p{
+					margin: 0;
+					color: #CFCFCF;
+				}
+			}
+			li:nth-child(2){
+				border-right: 1px solid #CFCFCF;
+				border-left:  1px solid #CFCFCF;
+			}
+		}
+	}
+}

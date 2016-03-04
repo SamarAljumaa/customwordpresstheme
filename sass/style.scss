@@ -13,6 +13,8 @@
 @import 'front-page';
 @import 'single-post';
 @import 'blogpost';
+@import 'about-page';
+@import 'contact-page';
 @import 'sidebar';
 @import 'comments';
 @import 'footer';
@@ -58,11 +60,13 @@ body {
 .full {
 	width: 100%;
 }
-
+h1, h2, h3{
+	text-transform: uppercase;
+	
+}
 h1{
 	font-size: 23rem;
 	margin: 0;
-	text-transform: uppercase;
 }
 
 h2{
@@ -75,6 +79,10 @@ h3{
 
 h4{
 	font-size: 3rem;
+}
+
+h5{
+	font-size: 2rem;
 }
 
 p{

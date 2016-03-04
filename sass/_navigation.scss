@@ -21,13 +21,24 @@ nav{
 		margin: 0;
 		padding: 0;
 		li {
-			display: inline;
+			// display: inline;
+			border: 2px solid rgba(255, 145, 115, 1);
+			width: 20%;
+			float: left;
+  		margin: 1%;
+			list-style-type: none;
 			a {
+				width: 100%;
 				display: block;
-				padding: 15px 30px;
-    		margin: 2%;
+				text-align: center;
+				padding: 10px;
 				color: rgba(58, 58, 58, 1);
 				float: left;
+				transition: all .5s;
+			}
+			a:hover{
+				background: rgba(255, 145, 115, .7);
+				color: white;
 			}
 		}
 	}
