@@ -14,7 +14,7 @@
 <body <?php body_class(); ?>>
 
 <header>
-  <div class="wrapper">
+  <div class="wrapper clearfix">
 
     <nav class="clearfix">
       <div class="logo">

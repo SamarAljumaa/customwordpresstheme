@@ -3,7 +3,8 @@
 
 <section class="blogpost">
   <div class="wrapper">
-   <!-- <h2> <?php get_header ?> </h2> -->
+  	<h2>Our Latest Blog Posts</h2>
+
   	<ul class="posts">
     		<?php get_template_part( 'loop', 'index' );	?> 
   	</ul>

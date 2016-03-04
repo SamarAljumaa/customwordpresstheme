@@ -1,26 +1,33 @@
-nav{
-	position: fixed;
-	// background: white;
+header{
 	width: 100%;
-	top: 0;
-	left: 0;
-	padding: 25px;
-	z-index: 5;
+}
+nav{
+	position: relative;
+	background: white;
+	width: 100%;
+	// padding: 25px 0;
 	text-transform: uppercase;
 	.logo{
 		float:left;
 		font-size: 1.2rem;
+		width: 35%;
+		padding: 15px 30px;
+		display: block;
+
 	}
 	ul.menu {
+		width: 50%;
 		float:right;
 		margin: 0;
 		padding: 0;
 		li {
 			display: inline;
 			a {
-				padding: 10px;
+				display: block;
+				padding: 15px 30px;
+    		margin: 2%;
 				color: rgba(58, 58, 58, 1);
-				font-size: 1.2rem;
+				float: left;
 			}
 		}
 	}

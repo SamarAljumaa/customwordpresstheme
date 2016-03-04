@@ -1,5 +1,6 @@
 <?php // If there are no posts to display, such as an empty archive page ?>
 
+
 <?php if ( ! have_posts() ) : ?>
 
 	<article id="post-0" class="post error404 not-found">
@@ -22,7 +23,7 @@
 					<h4 class="entry-title">
 					  <?php the_title(); ?>
 					</h4>
-					<p>Click to read more</p>
+					<p>Read post</p>
         </a>
 			</li>
 
