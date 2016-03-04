@@ -1,6 +1,11 @@
 .blogpost{
 	height: 100vh;
 	width: 100%;
+	h2{
+		margin: 20px 0;
+		text-align: center;
+		margin: 0;
+	}
 	.posts{
 		padding-top: 50px;
 		display: flex;
