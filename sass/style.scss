@@ -66,11 +66,13 @@ h1, h2, h3{
 }
 h1{
 	font-size: 23rem;
+	letter-spacing: 7px;
 	margin: 0;
 }
 
 h2{
 	font-size: 9.6rem;
+	letter-spacing: 2.5px;
 }
 
 h3{
@@ -93,9 +95,32 @@ a{
 	font-size: 1.4rem;
 }
 
+@media (max-width: 1000px){
+	h1{
+		font-size: 16rem;
+	}
+}
 
+@media (max-width: 960px){
+	h1{
+		font-size: 14rem;
+	}	
+}
 
+@media (max-width: 764px){
+	h1{
+		font-size: 10rem;
+	}
+	h2{
+		font-size: 7.6rem;
+	}	
+}
 
+@media (max-width: 480px){
+	h1{
+		font-size: 6.5rem;
+	}	
+}
 
 
 
