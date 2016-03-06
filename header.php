@@ -21,12 +21,23 @@
         <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
             <?php bloginfo( 'name' ); ?>
         </a>
-      </div>    
-      <?php wp_nav_menu( array(
-        'container' => false,
-        'theme_location' => 'primary'
-      )); ?>
+      </div>  
+      <div id="nav-icon1">
+        <button class="btn-open">☰</button>
+      </div>  
     </nav>
   </div> <!-- /.wrapper -->
+
+     <div class="overlayMenu">
+
+       <div class="wrapper">
+         <i class="fa fa-times"></i>
+          <?php wp_nav_menu( array(
+            'container' => false,
+            'theme_location' => 'primary'
+          )); ?>
+        </div>
+      </div>
+
 </header><!--/.header-->
 

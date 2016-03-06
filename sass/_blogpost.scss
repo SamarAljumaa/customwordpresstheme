@@ -67,3 +67,12 @@
 		}
 	}
 }
+
+@media (max-width: 768px) {
+	.blogpost .posts article {
+		width: 100%;
+	}
+	.blogpost .posts li p {
+		opacity: 1;
+	}
+}

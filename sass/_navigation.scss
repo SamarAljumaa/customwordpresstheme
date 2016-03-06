@@ -10,36 +10,76 @@ nav{
 	.logo{
 		float:left;
 		font-size: 1.2rem;
-		width: 35%;
+		width: 50%;
 		padding: 15px 30px;
 		display: block;
 
 	}
-	ul.menu {
-		width: 50%;
-		float:right;
-		margin: 0;
-		padding: 0;
-		li {
-			// display: inline;
-			border: 2px solid rgba(255, 145, 115, 1);
-			width: 20%;
-			float: left;
-  		margin: 1%;
-			list-style-type: none;
-			a {
-				width: 100%;
-				display: block;
-				text-align: center;
-				padding: 10px;
-				color: rgba(58, 58, 58, 1);
-				float: left;
-				transition: all .5s;
-			}
-			a:hover{
-				background: rgba(255, 145, 115, .7);
-				color: white;
-			}
+	#nav-icon1 {
+		float: left;
+    width: 50%;
+    text-align: right;
+		.btn-open{
+			color: rgba(58, 58, 58, 1);
+			background: none;
+	    border: 0;
+	    font-size: 3.5rem;
+	    cursor: pointer;
+	    padding: 0 23px;
+	    transition: all .5s;
+		}
+		.btn-open:hover{
+			color: rgba(255, 145, 115, 1);
 		}
 	}
+}
+.overlayMenu{
+	display: none;
+	width: 100vw;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 555;
+  padding: 1% 2%;
+  background: rgba(58, 58, 58, 1);
+	.wrapper{
+		i{
+			width: 100%;
+			font-size: 4rem;
+			text-align: right;
+			color: white;
+		}
+		ul.menu {
+			width: 100%;
+			// float:right;
+			margin: 0;
+			padding: 0;
+			// display: none;
+			li {
+				// display: inline;
+				border: 2px solid rgba(255, 145, 115, 1);
+				width: 100%;
+				// float: left;
+	  		margin: 1%;
+				list-style-type: none;
+				a {
+					font-size: 3rem;
+					width: 100%;
+					display: block;
+					text-align: center;
+					padding: 10px;
+					color: white;
+					// float: left;
+					transition: all .5s;
+				}
+				a:hover{
+					background: rgba(255, 145, 115, .7);
+					color: white;
+				}
+			}
+		}
+	}	
 }	

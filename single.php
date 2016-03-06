@@ -14,8 +14,8 @@
       </div> 
     <!-- </div> -->
   </div>
-  <div class="container">
-    <div class="content">
+  <div class="container clearfix">
+    <div class="content clearfix">
       
       <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <div class="entry-content">
@@ -47,4 +47,4 @@
   </div> <!-- /.container -->
 </section> <!-- /.section -->
 
-<?php get_footer(); ?>
+<!-- <?php get_footer(); ?> -->

@@ -16,10 +16,15 @@
 			width: 75%;
 			margin: 0 auto;
 			padding: 50px;
+			display: flex;
+			flex-flow: row wrap;
+			align-items: center;
+    	justify-content: space-around;
 			li{
-				width: 33.3%;
-				float: left;
+				// width: 33.3%;
+				// float: left;
 				text-align: center;
+				padding: 20px;
 				h5{
 					margin: 0;
 				}
