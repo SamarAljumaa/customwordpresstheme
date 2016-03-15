@@ -41,6 +41,18 @@
 	}
 }
 
+@media (max-width: 1100px) {
+	.contact .wrapper ul {
+		width: 100%;
+	}	
+}
+
+@media (max-width: 868px) {
+	.contact .wrapper ul {
+		display: block;
+	}
+}
+
 @media (max-width: 580px){
 	.contact .wrapper h2 {
 		font-size: 6rem;

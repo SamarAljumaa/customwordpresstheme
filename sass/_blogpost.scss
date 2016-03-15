@@ -68,11 +68,39 @@
 	}
 }
 
+@media (max-width: 1000px) {
+	.blogpost .posts {
+		padding: 0;
+	}
+	.blogpost .posts article {
+		width: 45%;
+	}
+}
+
+@media (max-width:868px ) {
+	.blogpost h2 {
+		font-size: 8rem;
+	}
+}
+
 @media (max-width: 768px) {
 	.blogpost .posts article {
 		width: 100%;
+		margin: 0;
 	}
 	.blogpost .posts li p {
 		opacity: 1;
+	}
+}
+
+@media (max-width: 686px) {
+	.blogpost h2 {
+		font-size: 6rem;
+	}
+}
+
+@media (max-width: 500px) {
+	.blogpost h2 {
+		font-size: 4.5rem;
 	}
 }
